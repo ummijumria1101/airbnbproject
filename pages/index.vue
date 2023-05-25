@@ -3,8 +3,8 @@
     <div class="bg-[url('public/assets/img/bg.png')] bg-fixed bg-cover h-screen">
         <div >
             <div class="flex">
-                <div class="pt-4 pl-6">
-                    <img src="~/assets/img/icons8-airbnb-50.png">
+                <div class="pl-[25.65px] pt-[15.61px]">
+                    <img src="~/assets/img/icons8-airbnb-50.png" class="w-[28.65px] h-[30.78px]">
                 </div>
                 <div class="flex gap-3 text-white absolute top-7 right-6">
                     <NuxtLink to="/about" class="gap-3">satu</NuxtLink>
