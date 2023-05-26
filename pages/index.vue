@@ -15,7 +15,7 @@
                     <NuxtLink to="/about" class="gap-3">Connexion</NuxtLink>
                 </div>
 
-                <div class="bg-white w-[350px] h-[450px] mt-[132px] ml-[80px] rounded-md">
+                <div class="bg-white w-[350px] h-[450px] mt-[132px] ml-[30px] rounded-md">
                     <div class="px-[24px] pt-[32px] text-2xl">
                         <p class="text-gray-600 font-semibold">Pesan akomodasi dan nikmati aktivitas tak terlupakan seumur hidup!</p>
                     </div>
