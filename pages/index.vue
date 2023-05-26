@@ -64,10 +64,10 @@
                 <p class="text-sm text-gray-500">Cayman Islands</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
-                <div class="flex">
+                <!-- <div class="flex">
                     <p class="text-cyan-600">5.0 </p>
                     <img src="img/icons8-star-50.png" class="w-[15px] h-[15px] items-center pl-1 mt-[5px]">
-                </div>
+                </div> -->
                 
             </div>
             <div class="flex-none">
@@ -75,10 +75,10 @@
                 <p class="text-sm text-gray-500">Cayman Islands</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
-                <div class="flex">
+                <!-- <div class="flex">
                     <p class="text-cyan-600">5.0 </p>
                     <img src="img/icons8-star-50.png" class="w-[15px] h-[15px] items-center pl-1 mt-[5px]">
-                </div>
+                </div> -->
                 
             </div>
             <div class="flex-none">
@@ -86,10 +86,10 @@
                 <p class="text-sm text-gray-500">Cayman Islands</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
-                <div class="flex">
+                <!-- <div class="flex">
                     <p class="text-cyan-600">5.0 </p>
                     <img src="img/icons8-star-50.png" class="w-[15px] h-[15px] items-center pl-1 mt-[5px]">
-                </div>
+                </div> -->
                 
             </div>
             <div class="flex-none">
@@ -97,10 +97,10 @@
                 <p class="text-sm text-gray-500">Cayman Islands</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
-                <div class="flex">
+                <!-- <div class="flex">
                     <p class="text-cyan-600">5.0 </p>
                     <img src="img/icons8-star-50.png" class="w-[15px] h-[15px] items-center pl-1 mt-[5px]">
-                </div>
+                </div> -->
                 
             </div>
             <div class="flex-none">
@@ -108,10 +108,10 @@
                 <p class="text-sm text-gray-500">Cayman Islands</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
-                <div class="flex">
+                <!-- <div class="flex">
                     <p class="text-cyan-600">5.0 </p>
                     <img src="img/icons8-star-50.png" class="w-[15px] h-[15px] items-center pl-1 mt-[5px]">
-                </div>
+                </div> -->
                 
             </div>
             <div class="flex-none">
