@@ -6,7 +6,7 @@
         </div>
         <div class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 ml-[80px] gap-[8px] overflow-hidden mr-[80px]">
             <div class="flex-none">
-                <img src="/img/petualangan.png" class="w-[188px] h-[240px] rounded-md">
+                <img src="/img/petualangan.png" class=" h-[240px] rounded-md">
                 <p class="text-sm text-gray-500">Cayman Islands</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
@@ -17,7 +17,7 @@
                 
             </div>
             <div class="flex-none">
-                <img src="/img/temukan2.png" class="w-[188px] h-[240px] rounded-md">
+                <img src="/img/temukan2.png" class="h-[240px] rounded-md">
                 <p class="text-sm text-gray-500">Uruguay</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
@@ -28,7 +28,7 @@
                 
             </div>
             <div class="flex-none">
-                <img src="/img/temukan3.png" class="w-[188px] h-[240px] rounded-md">
+                <img src="/img/temukan3.png" class="h-[240px] rounded-md">
                 <p class="text-sm text-gray-500">Iceland</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
@@ -39,7 +39,7 @@
                 
             </div>
             <div class="flex-none">
-                <img src="/img/temukan4.png" class="w-[188px] h-[240px] rounded-md">
+                <img src="/img/temukan4.png" class="h-[240px] rounded-md">
                 <p class="text-sm text-gray-500">Mongolia</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
@@ -50,7 +50,7 @@
                 
             </div>
             <div class="flex-none">
-                <img src="/img/temukan5.png" class="w-[188px] h-[240px] rounded-md">
+                <img src="/img/temukan5.png" class="h-[240px] rounded-md">
                 <p class="text-sm text-gray-500">Bahrain</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>
@@ -61,7 +61,7 @@
                 
             </div>
             <div class="flex-none">
-                <img src="/img/temukan6.png" class="w-[188px] h-[240px] rounded-md">
+                <img src="/img/temukan6.png" class="h-[240px] rounded-md">
                 <p class="text-sm text-gray-500">Bosnia and Herzegovina</p>
                 <p class="text-base font-semibold">2 Nights PACKAGE All <br> Inclusive</p>
                 <p class="text-sm text-gray-500">Rp 10.000.000</p>

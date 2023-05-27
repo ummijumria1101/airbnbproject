@@ -2,17 +2,17 @@
     <div class="overflow-hidden">
         <p class="mt-[88px] ml-[80px] mb-[24px] text-xl font-semibold">Explore Airbnb</p>
         <div class="grid md:grid-cols-3 gap-[8px] mr-[80px]">
-            <div class="flex ml-[80px] w-[391px] h-[85px] rounded-md hover:bg-gray-100  duration-200 transform hover:-translate-y-1"> <!-- border-[1px] border-gray-200-->
+            <div class="flex ml-[80px] h-[85px] rounded-md hover:bg-gray-100  duration-200 transform hover:-translate-y-1"> <!-- border-[1px] border-gray-200-->
                 <img src="/img/bnbexplor.png" class="w-[121px] h-[85px] rounded-l-md">
-                <p class="text-gray-400 text-lg text-center py-[33px] pl-[24px]">Villa</p>
+                <p class="text-gray-400 text-lg text-center py-[33px] pl-[24px] text-ellipsis overflow-hidden">Villa</p>
             </div>
-            <div class="flex ml-[80px] w-[391px] h-[85px] rounded-md hover:bg-gray-100  duration-200 transform hover:-translate-y-1">
+            <div class="flex ml-[80px] h-[85px] rounded-md hover:bg-gray-100  duration-200 transform hover:-translate-y-1">
                 <img src="/img/explore2.png" class="w-[121px] h-[85px] rounded-l-md">
-                <p class="text-gray-400 text-lg text-center py-[33px] pl-[24px]">Experience</p>
+                <p class="text-gray-400 text-lg text-center py-[33px] pl-[24px] text-ellipsis overflow-hidden">Experience</p>
             </div>
-            <div class="flex ml-[80px] w-[391px] h-[85px] rounded-md hover:bg-gray-100  duration-200 transform hover:-translate-y-1">
+            <div class="flex ml-[80px] h-[85px] rounded-md hover:bg-gray-100  duration-200 transform hover:-translate-y-1">
                 <img src="/img/explore3.png" class="w-[121px] h-[85px] rounded-l-md">
-                <p class="text-gray-400 text-lg text-center py-[33px] pl-[24px]">Adventures</p>
+                <p class="text-gray-400 text-lg text-center py-[33px] pl-[24px] text-ellipsis overflow-hidden">Adventures</p>
             </div>
         </div>
         <p class="mt-[88px] ml-[80px] text-xl font-semibold">Akomodasi Airbnb Plus</p>
