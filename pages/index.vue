@@ -8,7 +8,7 @@
                         </div>
                     <div class="items-center">
                         <ul class="md:flex items-center place-content-end pr-3 py-2 gap-5 overflow-hidden">
-                            <li><NuxtLink to="/about" class="hover:text-gray-300 my-3 md:my-0">Français (FR)</NuxtLink></li>
+                            <li><NuxtLink to="/airbnbplus" class="hover:text-gray-300 my-3 md:my-0 font-bold">Tugas Fetching dummy data</NuxtLink></li>
                             <li class=""><NuxtLink to="https://twitter.com" class="hover:text-gray-300 my-3 md:my-0">EUR €</NuxtLink></li>
                             <li><NuxtLink to="/about" class="hover:text-gray-300 my-5 md:my-0">Devenir hôte</NuxtLink></li>
                             <li><NuxtLink to="/about" class="hover:text-gray-300 my-3 md:my-0">Créer son expérience</NuxtLink></li>

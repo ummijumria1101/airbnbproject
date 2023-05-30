@@ -21,7 +21,7 @@
             <div class="flex justify-center items-center bg-[url('/img/akomodasi.png')] bg-cover bg-center h-[310px] mx-[80px] rounded-md">
                 <div class="justify-center flex-col">
                     <img src="/img/logobw.png" class=" w-[104.5px] h-[112.7px] mb-6 ml-[50px]">
-                    <NuxtLink to="/about"><p class="h-[44px] bg-white rounded-md gap-14 py-2 px-10 text-center opacity-100 transition duration-300 ease-in-out hover:opacity-80">Temukan akomodasi</p></NuxtLink>
+                    <NuxtLink to="/airbnbplus"><p class="h-[44px] bg-white rounded-md gap-14 py-2 px-10 text-center opacity-100 transition duration-300 ease-in-out hover:opacity-80">Temukan akomodasi</p></NuxtLink>
                 </div>
                 
             </div>
