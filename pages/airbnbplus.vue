@@ -12,7 +12,8 @@
             </div>
         </div>
     </div>
-    <div class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 ml-[80px] mr-[80px] mt-[50px] gap-[8px] overflow-hidden">
+    <NuxtLink to="/details">
+        <div class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 ml-[80px] mr-[80px] mt-[50px] gap-[8px] overflow-hidden">
         <div class="" v-for="barang in contoh.products" :key="barang.id">
                         <div>
                             <div>
@@ -26,6 +27,7 @@
                         </div>  
         </div>
     </div>
+    </NuxtLink>
 </template>
 
 <script setup>

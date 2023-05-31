@@ -32,7 +32,7 @@
             <p class="font-base text-2xl">Seluruh vila. Tuan rumah: Diana</p>
             <p class="pb-[10px]">10 tamu  3 kamar tidur  9 kamar tidur  2 kamar mandi + ruang toilet</p>
         </div>
-        <div class="border-2 p-2 ml-4 w-[373px] h-[532px] mr[80px] rounded-lg justify-center">
+        <div class="border-2 p-2 ml-4 w-[373px] h-[532px] rounded-lg justify-center">
             <div class="flex">
                 <p class="font-bold text-lg m-[24px]">Rp2.248.000 malam</p>
                 <p></p>
@@ -45,7 +45,7 @@
 
             </div>
             <NuxtLink to="/checkoutpage">
-                <div class="p-2 bg-pink-600 ml-[24px] mt-[10px] rounded-md hover:bg-pink-500">
+                <div class="p-2 bg-pink-600 ml-[24px] mt-[10px] rounded-md">
                 <p class="text-center font-bold text-white">Pesan</p>
             </div>
             </NuxtLink>
