@@ -16,32 +16,33 @@
     </div>
     <div>
         <div class="bg-white">
-        <h1 class="font-medium text-3xl text-[#222222] tracking-wide ml-[80px] mt-[20px]">VILLA Pavilion Garden dengan KOLAM RENANG PRIBADI</h1>
-        <div class="flex mb-[20px] items-center gap-[10px] ml-[80px]">
-                                    <div class="flex gap-[3px] items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-3 h-3">
-                                            <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
-                                        </svg>
-                                    <p class="text-sm font-medium">4.92</p>
-                                    <p class="text-gray-600 text-sm">(96 ulasan)</p>
-                                    </div>
-                                    
+            <h1 class="font-medium text-3xl text-[#222222] tracking-wide ml-[80px] mt-[20px]">VILLA Pavilion Garden dengan KOLAM RENANG PRIBADI</h1>
+            <!-- teks bintang, ulasan, dll -->
+            <div class="flex mb-[20px] items-center gap-[10px] ml-[80px]">
+                                        <div class="flex gap-[3px] items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-3 h-3">
+                                                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+                                            </svg>
+                                        <p class="text-sm font-medium">4.92</p>
+                                        <p class="text-gray-600 text-sm">(96 ulasan)</p>
+                                        </div>
+                                        
 
-                                    <div class="flex gap-[3px] items-center mr-[10px]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3">
-                                            <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
-                                        </svg>
-                                        <p class="text-gray-600 text-sm">HostTeladan</p>
-                                    </div>  
-                                    <div>
-                                        <p class="font-semibold underline underline-offset-1">Bandung, Jawa Barat, Indonesia</p>
-                                    </div>                         
-                                </div>
-        
+                                        <div class="flex gap-[3px] items-center mr-[10px]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3">
+                                                <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                            </svg>
+                                            <p class="text-gray-600 text-sm">HostTeladan</p>
+                                        </div>  
+                                        <div>
+                                            <p class="font-semibold underline underline-offset-1">Bandung, Jawa Barat, Indonesia</p>
+                                        </div> 
+            </div>        
         </div>
         <!-- gambar pembuka -->
         <div class="mb-[10px] flex gap-[5px] ">
             <img src="/img/superhost.png" class="w-40% ml-[80px] rounded-l-xl">
+        
             <div class="grid grid-cols-2 gap-[5px] rounded-r-xl">
                 <img src="/img/superhost.png" class="w-[290px] h-[200px] ">
                 <img src="/img/superhost.png" class="w-[290px] h-[200px] rounded-tr-xl ">
@@ -50,12 +51,14 @@
             </div>
         </div >
 
+        <!-- flex isi dan card -->
         <div class="flex mt-[100-px] justify-between mr-[100px]">
+            <!-- details -->
             <div class="ml-[80px] w-[700px]">
                 <div class="flex justify-between items-center">
-                    <div class="flex-none">
+                    <div class="">
                     <p class="font-base text-2xl">Seluruh vila. Tuan rumah: Diana</p>
-                    <p class="pb-[10px]">10 tamu  3 kamar tidur  9 kamar tidur  2 kamar mandi + ruang toilet</p>
+                    <p class="pb-[10px] ">10 tamu  3 kamar tidur  9 kamar tidur  2 kamar mandi + ruang toilet</p>
                     </div>
                     <div class="">
                         <div class="bg-[url('/img/dest2.png')] bg-cover w-[40px] h-[40px] rounded-full">
@@ -192,17 +195,35 @@
 
                     
                 </div>
-
+                
+                <!-- card pesan -->
                 <div class="border-2 p-2 ml-4 w-[373px] h-[532px] rounded-lg justify-center">
-                <div class="flex">
-                    <p class="font-bold text-lg m-[24px]">Rp2.248.000 malam</p>
-                    <p></p>
-                    <p class="text-sm text-gray-600 items-center right-0 m-[30px]">96 ulasan</p>
+                    <!-- header card -->
+                <div class="flex items-center justify-between py-5 ml-[24px] mr-[10px]">
+                    <div class="flex items-end gap-[3px] ">
+                        <p class="font-medium text-xl text-[#222222]">Rp2.248.000</p>
+                        <p>malam</p>
+                    </div>
+                    <div class="flex items-center">
+                        <!-- bintang -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-3 h-3">
+                        <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+                        </svg>
+                        <p class="font-semibold items-center">4.92</p>
+                        <p class="text-sm font-medium text-gray-600 items-center  ml-[20px] underline underline-offset-1">96 ulasan</p>
+                    </div>
                 </div>
                 <div class="grid grid-cols-2 ml-[24px] text-xs">
-                    <p class="h-[56px] border-x-2 border-t-2 rounded-tl-md">CHECK-IN</p>
-                    <p class="h-[56px] border-t-2 border-r-2 rounded-tr-md ">CHECK-IN</p>
-                    <p class="h-[56px] border-2 col-span-2 rounded-b-md">CHECK</p>
+                    <p class="h-[56px] border-x-2 border-t-2 rounded-tl-md text-xs p-2"><b>CHECK-IN</b> <br> Tambahkan tanggal</p>
+                    <p class="h-[56px] border-t-2 border-r-2 rounded-tr-md text-xs p-2"><b>CHECK-OUT</b> <br> Tambahkan tanggal</p>
+                    
+                    <div class="flex col-span-2 border-2 justify-between items-center rounded-b-md">
+                        <p class="h-[56px] text-xs p-2"><b>Tamu</b> <br> 1 Tamu</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-[10px]">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                        </svg>
+
+                    </div>
 
                 </div>
                 <NuxtLink to="/checkoutpage">
@@ -211,15 +232,15 @@
                 </div>
                 </NuxtLink>
                 
-            </div>
+                </div>
             </div>
 
 
             
-        </div>
-        <div>
-            <!-- ulasan dll -->
-        </div>
+    </div>
+    <div>
+        <!-- ulasan dll -->
+    </div>
         
 </template>
 
