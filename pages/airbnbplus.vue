@@ -14,39 +14,24 @@
     </div>
     <!-- list produk category -->
     <div>
-        <ul id="categories-list"></ul>
-        <div id="products-container"></div>
-        <div class="flex p-2 ml-[80px] gap-[20px]">
-            <div class="items-center" >
+
+        <!-- <div class="flex p-2 ml-[80px] gap-[20px]">
+
+            <div class="items-center" v-for="c in category.categories" :key="c.id">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 justify-center">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
 
-                <p class="text-gray-700 text-xs">smartphones</p>
+                <p class="text-gray-700 text-xs">{{ c.category }}</p>
             </div>
-            <div class="items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 justify-center">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-                </svg>
+            
 
-                <p class="text-gray-700 text-xs">laptops</p>
-            </div>
-            <div class="items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 justify-center">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-                </svg>
+        </div> -->
 
-                <p class="text-gray-700 text-xs">fragnances</p>
-            </div>
-            <div class="items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 justify-center">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-                </svg>
-
-                <p class="text-gray-700 text-xs">skincare</p>
-            </div>
-
-        </div>
+        <!-- <div class="" v-for="barang in product.products" :key="barang.id">
+            <p>{{ barang.category }}</p>
+        
+        </div> -->
 
     </div>
     
@@ -72,6 +57,7 @@
 
 <script setup>
 const { data: product } = await useFetch('https://dummyjson.com/products')
+// const { data: cat } = await useFetch('https://dummyjson.com/products/categories')
 
 
 
