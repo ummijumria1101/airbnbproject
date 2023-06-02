@@ -12,26 +12,29 @@
             </div>
         </div>
     </div>
-    <NuxtLink to="/details">
-        <div class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 ml-[80px] mr-[80px] mt-[50px] gap-[8px] overflow-hidden">
-        <div class="" v-for="barang in contoh.products" :key="barang.id">
+    
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 ml-[80px] mr-[80px] mt-[50px] gap-[8px] overflow-hidden">
+        <div class="" v-for="barang in product.products" :key="barang.id">
+                    <NuxtLink :to="`${barang.id}`">
                         <div>
                             <div>
-                                <img :src="barang.thumbnail" class="w-[188px] h-[240px] rounded-md">
+                                <img :src="barang.thumbnail" class="w-auto h-[240px]  rounded-md">
                             </div>
                             <div>
                                 <p class="text-[16px] p-[1px] text-gray-600 font-bold mt-1">{{ barang.title }}</p>                                       
                                 <p class="text-[10px] text-px-[3px] text-justify">${{ barang.description }}</p>
                                 <p class="text-[14px] text-start text-gray-600 font-bold">${{ barang.price }}</p>
                             </div>
-                        </div>  
+                        </div>
+                    </NuxtLink>
+                          
         </div>
     </div>
-    </NuxtLink>
+    
 </template>
 
 <script setup>
-const { data: contoh } = await useFetch('https://dummyjson.com/products')
+const { data: product } = await useFetch('https://dummyjson.com/products')
 </script>
 
 <style lang="" scoped>
