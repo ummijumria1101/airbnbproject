@@ -27,7 +27,7 @@
     
         <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 ml-[80px] mr-[80px] mt-[50px] gap-[8px] overflow-hidden">
         <div class="" v-for="barang in product.products" :key="barang.id">
-                    <NuxtLink :to="`${barang.id}`">
+                    <NuxtLink :to="`/${barang.id}`">
                         <div>
                             <div>
                                 <img :src="barang.thumbnail" class="w-auto h-[240px]  rounded-md">
@@ -47,7 +47,6 @@
 
 <script setup>
 const { data: product } = await useFetch('https://dummyjson.com/products')
-// const { data: cat } = await useFetch('https://dummyjson.com/products/categories')
 
 
 
