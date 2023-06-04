@@ -31,7 +31,9 @@
 
  
     <div class="">
-        <explorer />
+        <airbnbplus />
+
+        <!-- <explorer />
 
         <temukan />
 
@@ -39,6 +41,6 @@
 
         <petualangan />
         
-        <destinasi />        
+        <destinasi />         -->
     </div>
 </template>

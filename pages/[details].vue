@@ -29,7 +29,7 @@
                                         </div>
                                         
 
-                                        <div class="flex gap-[3px] items-center mr-[10px]">
+                                        <!-- <div class="flex gap-[3px] items-center mr-[10px]">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3">
                                                 <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
                                             </svg>
@@ -37,7 +37,7 @@
                                         </div>  
                                         <div>
                                             <p class="font-semibold underline underline-offset-1">Bandung, Jawa Barat, Indonesia</p>
-                                        </div> 
+                                        </div>  -->
             </div>        
         </div>
         <!-- gambar pembuka -->
@@ -88,29 +88,24 @@
                             <!-- <p class="text-gray-600 overflow-y-visible">HosTeladan adalah tuan rumah berpengalaman dan berpenilaian tinggi yang berkomitmen dalam menyediakan penginapan luar biasa bagi tamu.</p> -->
                             </div>
                         </div>
-                        <div class="flex gap-5 items-start mb-[20px]">
-                            <!-- kedua -->
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
-                            </svg>
-                            <div>
-                                <p class="font-semibold">Pengalaman check in istimewa
-                            </p>
-                            <p class="text-gray-600 overflow-y-visible">90% tamu baru-baru ini memberikan nilai 5 bintang untuk proses check-in.</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-5 items-start mb-[20px]"> -->
-                            <!-- ketiga -->
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
-                            </svg>                            
-                            <div>
-                                <p class="font-semibold">
-                                    Pembatalan gratis sebelum 11 Jul.
-                            </p> -->
-                            <!-- <p class="text-gray-600 overflow-y-visible">Pembatalan gratis sebelum 11 Jul.</p> -->
-                            <!-- </div> -->
-                        </div>                       
+                        
+                    </div>
+                    <div class="mt-[10px]">
+                        <!-- deskripsi -->
+                        <p class="text-xl">Fitur Fitur</p>
+                        <ul class="list-disc ml-[20px]">
+                            <li>
+                                Layar Liquid Retina HD LCD 6,1 inci(1)
+                            </li>
+                            <li>Tahan air dan debu (2 meter hingga selama 30 menit, IP68)(1) </li>
+                            <li>Sistem kamera ganda dengan kamera Ultra Wide dan Wide 12 MP; mode Malam, mode Potret, dan video 4K hingga 60 fps </li>
+                            <li>Kamera depan TrueDepth 12 MP dengan mode Potret, video 4K, dan video gerakan lambat</li>
+                            <li>Face ID untuk autentikasi aman</li>
+                            <li>Chip A13 Bionic dengan Neural Engine generasi ketiga</li>
+                            <li>Kemampuan isi daya cepat</li>
+                            <li>Pengisian daya nirkabel(4)</li>
+                            <li>iOS 13 dengan Mode Gelap, alat baru untuk pengeditan foto dan video, dan fitur privasi baru </li>
+                        </ul>
                     </div>
 
 
