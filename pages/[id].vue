@@ -128,7 +128,7 @@
                         <p class="font-medium text-xl text-[#222222] line-through decoration-[1px]">$ {{ product.price }}</p>
                         <p>malam</p>
                         <div class=" bg-pink-600 items-center">
-                            <p class="text-center font-bold text-white text-xs px-[3px]">{{ product.discountPercentage }} off</p>
+                            <p class="text-center font-bold text-white text-xs px-[3px]">{{ product.discountPercentage }}% off</p>
                         </div>
                     </div>
                     <div class="flex items-center">
@@ -141,8 +141,8 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 ml-[24px] text-xs">
-                    <p class="h-[56px] border-x-2 border-t-2 rounded-tl-md text-xs p-2"><b>Total stok</b> <br> {{ product.stock }}</p>
-                    <p class="h-[56px] border-t-2 border-r-2 rounded-tr-md text-xs p-2"><b>CHECK-OUT</b> <br> Tambahkan tanggal</p>
+                    <p class="h-[56px] border-l-2 border-t-2 rounded-tl-md text-xl p-2"><b>Total stok : {{ product.stock }}</b> </p>
+                    <p class="h-[56px] border-t-2 border-r-2 rounded-tr-md text-xl p-2"><b></b></p>
                     
                     <div class="flex col-span-2 border-2 justify-between items-center rounded-b-md">
                         <p class="h-[56px] text-xl p-3"><b>Jumlah</b></p>
@@ -165,7 +165,7 @@
 
                 <!-- to="/checkoutpage" v-for="barang in product.products" :key="barang.id" -->
                 <div >
-                    <NuxtLink :to="`/checkout/` + checkout" :key="product.id">
+                    <NuxtLink to="checkout/">
                     <div class="p-2 bg-pink-600 ml-[24px] mt-[10px] rounded-md">
                     <p class="text-center font-bold text-white">Pesan</p>
                     </div>

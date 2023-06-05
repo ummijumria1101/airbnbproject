@@ -16,6 +16,7 @@
     "tailwindcss": "^3.3.2"
   },
   "dependencies": {
+    "@vuesimple/vs-pagination": "^1.4.13",
     "axios": "^1.4.0"
   }
 }
