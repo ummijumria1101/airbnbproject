@@ -137,7 +137,7 @@
                         <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
                         </svg>
                         <p class="font-semibold items-center">{{ product.rating }}</p>
-                        <p class="text-sm font-medium text-gray-600 items-center  ml-[20px] underline underline-offset-1">96 ulasan</p>
+                        <!-- <p class="text-sm font-medium text-gray-600 items-center  ml-[20px] underline underline-offset-1">96 ulasan</p> -->
                     </div>
                 </div>
                 <div class="grid grid-cols-2 ml-[24px] text-xs">
@@ -145,10 +145,19 @@
                     <p class="h-[56px] border-t-2 border-r-2 rounded-tr-md text-xs p-2"><b>CHECK-OUT</b> <br> Tambahkan tanggal</p>
                     
                     <div class="flex col-span-2 border-2 justify-between items-center rounded-b-md">
-                        <p class="h-[56px] text-xs p-2"><b>Jumlah</b> <br> 1 Tamu</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-[10px]">
-                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-                        </svg>
+                        <p class="h-[56px] text-xl p-3"><b>Jumlah</b></p>
+                        <div id="app items-center">
+                            <div class="w-30 mr-8">
+                            <!-- <button class="text-2xl gap-2 btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                            -
+                            </button> -->
+                            <input class="w-[100px] h-[30px] border-2 rounded-md gap-2  text-center border-2-black" type="number" name="name" :value="counter">
+                            <!-- <button class="text-2xl gap-2 btn--plus" @click="changeCounter('1')" type="button" name="button">
+                                +
+                            </button> -->
+                            </div>
+
+                        </div>
 
                     </div>
 
@@ -156,13 +165,14 @@
 
                 <!-- to="/checkoutpage" v-for="barang in product.products" :key="barang.id" -->
                 <div >
-                    <NuxtLink to="/checkoutpage">
+                    <NuxtLink :to="`/checkout/` + checkout" :key="product.id">
                     <div class="p-2 bg-pink-600 ml-[24px] mt-[10px] rounded-md">
                     <p class="text-center font-bold text-white">Pesan</p>
                     </div>
-                </NuxtLink>
+                    </NuxtLink>
 
                 </div>
+                
 
                 
                 
@@ -171,11 +181,7 @@
 
 
             
-    </div>
-    <div>
-        <!-- ulasan dll -->
-    </div>
-        
+    </div>      
 
     </div>
     
@@ -191,6 +197,8 @@
     // definePageMeta({
     //     layout : 'products'
     // })
+    
+    
 
 </script>
 
