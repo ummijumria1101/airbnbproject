@@ -25,17 +25,19 @@
     </div>
 
     
+
+    
         <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 ml-[80px] mr-[80px] mt-[50px] gap-[8px] overflow-hidden">
-        <div class="" v-for="barang in product.products" :key="barang.id">
-                    <NuxtLink :to="`/${barang.id}`">
+        <div class="" v-for="item in product.products" :key="item.id">
+                    <NuxtLink :to="`` + item.id">
                         <div>
                             <div>
-                                <img :src="barang.thumbnail" class="w-auto h-[240px]  rounded-md">
+                                <img :src="item.thumbnail" class="w-auto h-[240px]  rounded-md">
                             </div>
                             <div>
-                                <p class="text-[16px] p-[1px] text-gray-600 font-bold mt-1">{{ barang.title }}</p>                                       
-                                <p class="text-[10px] text-px-[3px] text-justify">${{ barang.description }}</p>
-                                <p class="text-[14px] text-start text-gray-600 font-bold">${{ barang.price }}</p>
+                                <p class="text-[16px] p-[1px] text-gray-600 font-bold mt-1">{{ item.title }}</p>                                       
+                                <p class="text-[10px] text-px-[3px] text-justify">${{ item.description }}</p>
+                                <p class="text-[14px] text-start text-gray-600 font-bold">${{ item.price }}</p>
                             </div>
                         </div>
                     </NuxtLink>

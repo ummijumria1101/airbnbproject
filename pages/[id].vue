@@ -1,5 +1,6 @@
 <template>
-    <div class="flex border-b-2 h-[81px] items-center justify-between">
+    <div>
+        <div class="flex border-b-2 h-[81px] items-center justify-between">
         <NuxtLink to="/">
             <img src="/img/airbnbpinklogo.png" class="h-[81px] w-auto items-center">
         </NuxtLink>
@@ -53,7 +54,7 @@
         </div >
 
         <!-- flex isi dan card -->
-        <div class="flex mt-[100-px] justify-between mr-[100px]">
+        <div class="flex mt-[100-px] justify-between mr-[100px]" >
             <!-- details -->
             <div class="ml-[80px] w-[700px]">
                 <div class="flex justify-between items-center">
@@ -152,11 +153,18 @@
                     </div>
 
                 </div>
-                <NuxtLink to="/checkoutpage">
+
+                <!-- to="/checkoutpage" v-for="barang in product.products" :key="barang.id" -->
+                <div >
+                    <NuxtLink to="/checkoutpage">
                     <div class="p-2 bg-pink-600 ml-[24px] mt-[10px] rounded-md">
                     <p class="text-center font-bold text-white">Pesan</p>
-                </div>
+                    </div>
                 </NuxtLink>
+
+                </div>
+
+                
                 
                 </div>
             </div>
@@ -168,14 +176,17 @@
         <!-- ulasan dll -->
     </div>
         
+
+    </div>
+    
 </template>
 
 <script setup>
-    const { id } = useRoute().params
-    const uri = 'https://dummyjson.com/products/' + id
+    const { id } = useRoute().params;
+    const uri = 'https://dummyjson.com/products/' + id;
 
     // fetch
-    const { data: product } = await useFetch(uri)
+    const { data: product } = await useFetch(uri);
     
     // definePageMeta({
     //     layout : 'products'

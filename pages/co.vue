@@ -5,7 +5,14 @@
         </NuxtLink>
     </div>
     <div>
-        <p>ini link ke</p>
+        <p>ini link ke lalala</p>
+        <div v-for="barang in product.products" :key="barang.id">
+            <NuxtLink :to="`/checkout/${checkout}`">
+                
+
+            </NuxtLink>
+
+        </div>
         <div class="flex ml-[70px] mt-[30px]">
             <NuxtLink to="/details">
                 <div>
@@ -242,6 +249,7 @@
 </template>
 
 <script setup>
+const { data: product } = await useFetch('https://dummyjson.com/products')
 
 </script>
 
