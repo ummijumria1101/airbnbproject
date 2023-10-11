@@ -1,8 +1,10 @@
 <template>
     <div>
-        <NuxtLink :to="`checkout` + checkout">
+        <NuxtLink :to="`checkout/` + checkout">
                         
-                    </NuxtLink>
+        </NuxtLink>
+                    <p>Ini halaman checkout</p>
+
 
     </div>
 </template>
@@ -13,6 +15,6 @@ const { data: product } = await useFetch('https://dummyjson.com/products')
 
 </script>
 
-<style lang="scss" scoped>
+<style>
 
 </style>

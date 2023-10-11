@@ -165,7 +165,7 @@
 
                 <!-- to="/checkoutpage" v-for="barang in product.products" :key="barang.id" -->
                 <div >
-                    <NuxtLink to="checkout/">
+                    <NuxtLink  :to="`checkoutpage`">
                     <div class="p-2 bg-pink-600 ml-[24px] mt-[10px] rounded-md">
                     <p class="text-center font-bold text-white">Pesan</p>
                     </div>
@@ -197,6 +197,8 @@
     // definePageMeta({
     //     layout : 'products'
     // })
+
+    
     
     
 

@@ -18,20 +18,20 @@
         </div>
         <div class="flex mt-[30px]">
             <div class="w-[570px] ml-[100px] border-b-2">
-                <p class="font-medium text-2xl">Perjalanan Anda</p>
+                <p class="font-medium text-2xl">Pesanan Anda</p>
                 <div class="mt-[20px]">
                     <div class="flex justify-between">
-                    <p class="font-semibold text-lg">Tanggal</p>
+                    <p class="font-semibold text-lg">Item</p>
                     <p class="font-semibold underline underline-offset-1">Edit</p>
                     </div>
-                    <p>20-25 Jul</p>
+                    <p>{{ product.title }}</p>
                 </div>
                 <div class="mt-[20px] mb-[10px]">
                     <div class="flex justify-between">
-                    <p class="font-semibold text-lg">Tamu</p>
+                    <p class="font-semibold text-lg">Jumlah</p>
                     <p class="font-semibold underline underline-offset-1">Edit</p>
                     </div>
-                    <p>1 tamu</p>
+                    <p>2</p>
                 </div>
 
 
@@ -241,6 +241,7 @@
 </template>
 
 <script setup>
+const { data: product } = await useFetch('https://dummyjson.com/products')
 
 </script>
 
